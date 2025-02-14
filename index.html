@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Love Builder</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="blueprint-overlay"></div> <!-- Soft blueprint overlay -->
+<div class="blueprint-container">
+    <div id="intro-page" class="intro-container">
+        <h1 class="intro-title">Helloooo Sweetheart ! A special note for you on the special day💚 </h1>
+        <p class="intro-text">
+            So to my love who loves Greenery , Plants and Architecture a lot , I have created something special for you revolving around the thing you are working very hard for and give most of your time to . Heard you are good at sketches and creating blueprints. Now, let's create our Love Blueprint together!
+        </p>
+        <button id="lets-go-button" class="intro-button">Let's Go</button>
+    </div>
+    <h1 class="title">Our Love Blueprint</h1>
+    <p id="guidance">Step 1: Place the foundation (Friendship).
+        Every great structure starts with a strong foundation—just like our love, sweetie.
+    </p>
+
+    <!-- Free Building Area -->
+    <div class="building-area" id="building-area"></div>
+
+    <!-- Draggable Building Elements -->
+    <div class="pieces">
+        <div id="foundation" class="draggable foundation" draggable="true">Foundation</div>
+        <div id="wall1" class="draggable wall" draggable="true">Walls</div>
+        <div id="wall2" class="draggable wall" draggable="true">Walls</div>
+        <div id="roof" class="draggable roof" draggable="true"></div>
+    </div>
+
+    <!-- Hidden Message -->
+    <div id="final-message" class="hidden">
+        <h2> You completed this blueprint of the structure just like you complete my blueprint of happiness.😚 </h2>
+    </div>
+</div>
+
+<!-- Question Window -->
+<div id="question-window" class="hidden">
+    <h2>Will you be my Valentine?</h2>
+    <div class="options">
+        <button id="yes-button" class="option">Yes</button>
+        <button id="no-button" class="option">No</button>
+    </div>
+</div>
+
+<!-- Music Button -->
+<button id="music-button" class="music-button">🎵 Music</button>
+
+<!-- Audio -->
+<audio id="love-music" loop>
+    <source src="Blue-Yung-Kai.mp3" type="audio/mp3">
+</audio>
+
+<script src="main.js"></script>
+</body>
+</html>
